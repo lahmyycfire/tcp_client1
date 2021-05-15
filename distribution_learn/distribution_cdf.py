@@ -22,4 +22,7 @@ def f1(a):
     return val
 
 
-print(1-f1(1))
+print(f1(4.163064941733942059483))
+print(f1(1))
+# print((1-0.94)/(1-0.94^5))
+# print(3^2)
