@@ -12,7 +12,7 @@ QueueManager.register('get_result_queue')
 server_addr = '127.0.0.1'
 print('connect to server %s' % server_addr)
 
-m = QueueManager(address=(server_addr, 5000), authkey=b'abcd')
+m = QueueManager(address=(server_addr, 5000), authkey=b'abc')
 
 m.connect()
 task = m.get_task_queue()
